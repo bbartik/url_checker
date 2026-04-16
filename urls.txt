@@ -1,0 +1,18 @@
+# URL list for Zscaler filter testing
+# Lines starting with # are ignored, blank lines are skipped
+#
+# Mix of expected-allowed and expected-blocked sites
+
+# -- general connectivity --
+https://google.com
+https://github.com
+https://microsoft.com
+
+# -- social / potentially filtered --
+https://facebook.com
+https://reddit.com
+https://youtube.com
+
+# -- security / threat intel (likely blocked) --
+https://pastebin.com
+https://www.virustotal.com
